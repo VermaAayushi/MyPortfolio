@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+<head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fuggles&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive Portfolio Template">
+    <meta name="author" content="Suvrat Jain">
+    <title>Responsive Bootstrap Template for Portfolio</title>
+    <!-- Bootstrap core CSS -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> 
+  </head>
+  <body onload="myFunction()">
+	<div id="loader">
+
+	</div>
+	<div id="page" style="display:none;" class="animate-bottom">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="menu">
+			<div class="container">
+			  <div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				  <span class="sr-only">Toggle navigation</span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				  <span class="icon-bar"></span>
+				</button> 
+				<a class="navbar-brand" href="#"><img src="/assests/logos.png" width="120px
+					"></a>
+			  </div>
+			  <div class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+				  <li><a href="#">Home</a></li>
+				  <li><a href="#about">About</a></li>
+				  <li><a href="#portfolio">Portfolio</a></li>
+				  <li><a href="#resume">Resume</a></li>
+				</ul> 
+			  </div><!--/.nav-collapse -->
+			</div>
+		  </div>
+	  
+	  <div class="container-fluid splash" id="splash">
+		<div class="container">
+		  <img src="/assests/Portrait.png" alt="Portrait" class="profile-image"> 
+		  <h1>HELLO!</h1> 
+		  <h1 class="intro-text"><span class="lead" id="typed">I am a </span></h1>
+		  <span class="continue"><a href="#about"><i class="fa fa-angle-down"></i></a></span>
+		</div>
+	  </div>
+			  <!-- About Section -->
+				  
+		  <section class="success" id="about">
+			  <div class="container">
+				  <div class="row">
+					  <div class="col-lg-12 text-center">
+						  <h2 style="font-family: 'Fuggles', cursive; font-size: 6em;">About Me</h2>
+						  <hr class="star-light">
+					  </div>
+				  </div>
+				  <div class="row">
+					  <div class="col-lg-4 col-lg-offset-2">
+						  <p class="content-text">
+							  Hey there! I am a 4th year B.Tech IT student.I have playing around in the world of I seek experience to gain more knowledge in the web development field.
+						  </p>
+					  </div>
+					  <div class="col-lg-4">
+						  <p class="content-text">
+							  I am also interested in video editing and content creation. Check out my YouTube channel for movie rants, gaming content and more.
+						  </p>
+				   </div>
+				  </div>
+			  </div>
+		  </section>
+	  <!-- Portfolio -->
+		  <div class="container-fluid portfolio-container-holder content-section" id="portfolio">
+			  <div class="portfolio-container container">
+				  <h1 class="text-center" style="font-family: 'Fuggles', cursive; font-size: 6em;">My Portfolio</h1>
+			<hr class="star-portfolio">
+				  <div class="row">
+					  
+					  <div class="col-md-6 col-xs-12 col-sm-6 portfolio-card-holder">
+						  <div class=" portfolio-card">
+							<div id="webdevimg">
+								<img src="assests/portfolio/1.png" alt="Portfolio" class="img-responsive portfolio-img" style="width: 75%; display: block; margin: auto;">
+							</div>
+							<div class="overlay">
+								<div id="webdev" style="font-size: 2.5em; padding: 10px">
+									I am proficient in HTML, CSS, JavaScript and JQuery. I use the bootstrap framework for the layout. I can also develop dynamic websites using NodeJs and AngularJs.
+								</div>
+							</div>
+							  
+	  
+							  <div class="portfolio-img-desc">
+								  <p style="font-size: 5em;">Web Development</p>
+							  </div>			
+						  </div>
+					  </div>
+					  <div class="col-md-6 col-xs-12 col-sm-6 portfolio-card-holder">
+						<div class=" portfolio-card">
+							<div id="videoeditimg">
+								<img src="assests/portfolio/2.png" alt="Portfolio" class="img-responsive portfolio-img" style="width: 75%; display: block; margin: auto;">
+							</div>
+							<div class="overlay">
+								<div id="videoedit" style="font-size: 2.5em; padding: 10px;">
+									I use Resolve to edit videos. I have my Youtube channel where I regularly post movie reviews, gaming content and much more.
+								</div>
+							</div>
+							  <div class="portfolio-img-desc">
+								  <p style="font-size: 5em;">Video Editing</p>
+							  </div>			
+						  </div>
+					  </div>
+					  
+				  </div>
+			  </div>
+		  </div>
+	  <!--Resume-->
+	  <section id="resume" style="padding-bottom: 50px ;">
+		<div>
+			
+		</div>
+		<h1 class="text-center" style="font-family: 'Fuggles', cursive; font-size: 6em;">My Resume</h1>
+		<hr class="star-portfolio">
+		<div class="row resume-row justify-content-evenly">
+			
+			<div class="card-group card-group-level">
+				<div class="col-md-6 col-xs-12 col-sm-6 resume-card-holder ">
+					<div class=" card portfolio-card" style="padding: 10px;">
+					  <h3 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.5em;">
+						  Zydus School for Excellence, Ahmedabad, Gujarat
+					  </h3>
+					  <h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+						<li>Class 10th ICSE Board 2015-16: 85.67% </li>
+						<li>Class 12th ISC Board 2017-18: 81.40%</li>
+					  </h5>
+					  <h3 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.5em;">
+						Symbiosis Institute of Technology, Pune, Maharastra
+					  </h3>
+					  <h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+						<li>Bachelor of Technology, Information Technology, 2018-22 </li>
+						<li>Currently in 6th semester 7</li>
+						<li>CGPA: 7.51</li>
+					  </h5>
+						
+		
+						<div class="portfolio-img-desc">
+							<p style="font-size: 5em;">Education</p>
+						</div>			
+					</div>
+				</div>
+				<div class="col-md-6 col-xs-12 col-sm-6 resume-card-holder ">
+				  <div class=" card portfolio-card"  style="padding: 10px;">
+						<h3 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+							Programming languages known
+						</h3>
+						<h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 1.5em;">
+							<i class="fa fa-code"></i> C,C++, Java, Python and JavaScript
+						</h5>
+						<h3 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+							Web Development
+						</h3>
+						<h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 1.5em;">
+							<i class="fa fa-code"></i> HTML,5 CSS3, PHP, Bootstrap 4, Node.js and AngularJS
+						</h5>
+						<h3 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+							Database
+						</h3>
+						<h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 1.5em;">
+							<i class="fa fa-code"></i> MySQL, MongoDB
+						</h5>
+						<h3 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+							Interfaces previously used
+						</h3>
+						<h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 1.5em;">
+							<i class="fa fa-code"></i> Atom and Visual Studio Code
+						</h5>
+						<h3 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+							Git and Version Control
+						</h3>
+						<div class="portfolio-img-desc">
+							<p style="font-size: 5em;">Techincal Skills</p>
+						</div>			
+					</div>
+				</div>
+			</div>
+					  
+			
+			<div class="col-md-12 col-xs-12 col-sm-6 resume-card-holder">
+				<div class=" portfolio-card"  style="padding: 10px;">
+					  <h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+						My team and I designed and developed an android app for the NGO IGiftLife. We worked directly with the client to understand requirements, brainstorm product ideas and take the app from the conceptualization stage to making it live on production.
+						<br> <br>
+						My team and I made an IP Address changer and Geolocator using Java. 
+						<br> <br>
+						My team and I made a guessing game based on the game – Akinator using C++. This game used concepts such as threaded binary tree to give desired outputs.
+						<br> <br>
+						My team and I made a statistics based website for Covid 19. I was responsible for the front end, which I made using HTML, CSS and JavaScript.
+					  </h5>
+					  
+					  <div class="portfolio-img-desc">
+						  <p style="font-size: 5em;">Projects</p>
+					  </div>			
+				  </div>
+			  </div>
+			  <div class="col-md-12 col-xs-12 col-sm-6 resume-card-holder">
+				<div class=" portfolio-card"  style="padding: 10px;">
+					  <h5 style="font-family: 'Shadows Into Light', cursive; font-weight: 700; font-size: 2.0em;">
+						Two month work experience at RedWall Technologies as Web development intern. I worked with front-end and web services.
+						<br> <br>
+						I was the Student Relations and Publicity Head for the college’s Technical Fest.
+						<br> <br>
+						I have orchestrated a few social event on campus, which generated a profit for the club.  
+						<br> <br>
+						I have Elementary Proficiency in German language.
+						<br> <br>
+						I have worked with IGiftLife NGO and performed street plays for Organ Donation Awareness in various IT Parks, Villages, and Colleges.
+						<br> <br>
+						Our team coupled up with Mr. Batra founder of IGiftLife to curate the plays in Marathi and Hindi to better connect with the audience.
+						<br> <br>
+						I have also volunteered for the Pukaar Donation Drive, for the flooded regions of Maharastra.
+	
+					  </h5>
+					  
+					  <div class="portfolio-img-desc">
+						  <p style="font-size: 5em;">Experience</p>
+					  </div>			
+				  </div>
+			  </div>
+			
+		</div>
+	
+	  </section>
+	  <!-- Footer -->
+		  <footer>
+			  <div class="container footer-container">
+				  <div class="row footer-row">
+					  <div class="col-xs-12 col-md-12 col-sm-12 social-section">
+						  <div class="text-center">
+							  <h4 class="text-center" style="font-family: 'Fuggles', cursive; font-size: 3em;">I can be found here</h4>
+							  <div class="text-center social-buttons">
+							  <a href="https://www.linkedin.com/in/aayushi-verma-7703a3185/" class="btn btn-default btn-lg social-button link-linkedin"><i class="fa fa-linkedin"></i>
+							  </a>
+							  <a href="https://instagram.com/aawhoshe" class="btn btn-default btn-lg social-button link-instagram"><i class="fa fa-instagram"></i>
+							  </a>
+							  <a href="https://github.com/VermaAayushi" class="btn btn-default btn-lg social-button link-github"><i class="fa fa-github"></i>
+							  </a>
+							  <a href="https://www.youtube.com/channel/UCkoVPUhuQUwpqEEPojQWFyg" class="btn btn-default btn-lg social-button link-youtube"><i class="fa fa-youtube"></i>
+							  </a>
+						  </div><hr class="footer-hr">
+				 
+						  </div>
+					  </div>
+				  </div>
+			  </div>
+		  </footer>
+	</div>
+    
+
+    
+    <!-- Bootstrap core JavaScript -->
+    <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
