@@ -86,13 +86,6 @@ function showPage() {
                 var humanize = Math.round(Math.random() * (100 - 30)) + this.typeSpeed;
                 var self = this;
 
-                // ------------- optional ------------- //
-                // backpaces a certain string faster
-                // ------------------------------------ //
-                // if (self.arrayPos == 1){
-                //  self.backDelay = 50;
-                // }
-                // else{ self.backDelay = 500; }
 
                 // containg entire typing function in a timeout
                 setTimeout(function() {
@@ -218,7 +211,7 @@ function showPage() {
 $(function(){
 
         $("#typed").typed({
-            strings: ["web developer","geek","human being","video editor"], //Strings to display when typing
+            strings: ["web developer","geek","human being","video editor","gamer"], 
             typeSpeed: 40,
             backDelay: 600,
             loop: true,

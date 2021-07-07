@@ -94,8 +94,11 @@ ul.navbar-nav {
 ul.navbar-nav li 
 {
   padding: 0 10px;
+  font-size: larger;
 }
-
+.navbar-collapse{
+  background-color: white;
+}
 
 @media only screen and (max-width:767px)
 { ul.navbar-nav { float:none; } }
