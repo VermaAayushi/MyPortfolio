@@ -48,8 +48,9 @@
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6{
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Andada Pro', serif;
 }
+
 body{
   overflow-x: hidden;
 }
@@ -81,7 +82,7 @@ body{
 
 * {
   box-sizing: border-box;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Andada Pro', serif;
 }
 #menu
 {
@@ -120,12 +121,17 @@ body{
 {
   color:black!important;
   font-size:1.2em;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Andada Pro', serif;
   font-weight: 400;
   font-weight:600;
   transition: 0.4s ease;
 }
 .navbar-nav li a:hover
+{
+  color:#fff!important;
+  background-color:black!important;
+}
+.navbar-nav li:hover
 {
   color:#fff!important;
   background-color:black!important;
@@ -194,7 +200,7 @@ h1.intro-text
 .splash .lead {
   font-size: 30px;
   margin-bottom: 1em;
-  font-family: Rockwell;
+  font-family: 'Roboto', sans-serif;
 }
 .navbar-inverse
 {
@@ -262,7 +268,7 @@ h1.intro-text
 .splash .continue a:hover {
   background-color: rgba(255, 255, 255, .25);
 }
-#about,#portfolio,#contact
+#about,#portfolio,#contact,#resume
 {
   padding-top:4em!important;
 }
@@ -305,7 +311,7 @@ hr.star-light:after,hr.star-portfolio:after {
     position: relative;
     top: -.8em;
     padding: 0 .25em;
-    font-family: 'Amatic SC', cursive;
+    font-family: 'Andada Pro', serif;
     font-size: 2em;
 }
 
@@ -323,7 +329,10 @@ hr.star-light:after {
     color: #fff;
     background-color: rgb(13, 79, 136);
 }
-p.content-text { font-size: 25px; }
+p.content-text { 
+  font-size: 25px; 
+  font-family: 'Roboto', sans-serif;
+}
 
 /* PORTFOLIO */
 .portfolio-card{
@@ -493,4 +502,82 @@ hr.footer-hr
 hr.copyright
 {
   opacity:0.4;
+}
+.content-head{
+  font-family: 'Andada Pro', serif;
+  font-size: 40px;
+}
+.content-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.portfolio-container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.content-hover{
+  font-size: 30px;
+}
+
+.resume-section li{
+  list-style: none;
+}
+.resume-head{
+  font-size: 25px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.resume-text{
+  font-size: 15px;
+}
+.bio{
+  padding-left: 90px;
+  padding-right: 90px;
+}
+.content-head hr{
+    margin: 25px auto 30px;
+    padding: 0;
+    max-width: 250px;
+    border: 0;
+    border-top: solid 3px;
+    text-align: center;
+}
+.resume-section .content-head{
+  margin-bottom: 30px;
+}
+.left-align{
+  text-align: left;
+}
+#resume{
+  padding-bottom: 50px;
 }
